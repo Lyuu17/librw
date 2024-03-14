@@ -1,6 +1,6 @@
 #ifdef RW_D3D9
 #ifdef WITH_D3D
-#include <d3d9.h>
+#include <d3dx9.h>
 #endif
 #endif
 
@@ -21,7 +21,7 @@ struct EngineOpenParams
 #endif
 #else
 #ifdef _D3D9_H_
-#error "please don't include d3d9.h for non-d3d9 platforms"
+#error "please don't include d3dx9.h for non-d3d9 platforms"
 #endif
 #endif
 
